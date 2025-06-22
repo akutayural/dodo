@@ -7,12 +7,12 @@ long_description = (this_directory / "README.md").read_text(encoding="utf-8")
 
 setup(
     name="dodo-lookup",
-    version="0.2.5",
+    version="0.2.6",
     description="A minimal and colorful terminal tool to check domain availability across TLDs.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     author="Oguzhan Budak",
-    url="https://github.com/yourusername/dodo",  # istersen GitHub linkin
+    url="https://github.com/OggyB/dodo",
     packages=find_packages(),
     install_requires=[
         "python-whois",
