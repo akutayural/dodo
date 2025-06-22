@@ -18,3 +18,5 @@ biz
 cloud
 page
 us
+uk
+co.uk
