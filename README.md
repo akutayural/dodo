@@ -19,9 +19,15 @@ It checks if a domain name is available across multiple TLDs and supports CSV/JS
 ## 🚀 Installation
 
 ```bash
-git clone https://github.com/yourusername/dodo.git
+git clone https://github.com/OggyB/dodo.git
 cd dodo
 pip install .
+```
+
+Or install directly from PyPI:
+
+```bash
+pip install dodo-lookup
 ```
 
 ---
@@ -67,16 +73,17 @@ dodo
 
 ## 🧱 Project Structure
 
-```
+```text
 dodo/
+├── __init__.py
 ├── main.py
 ├── commands.py
 ├── checker.py
 ├── exporter.py
 ├── utils.py
-├── __init__.py
-├── setup.py
 ├── tlds.txt
+setup.py
+README.md
 ```
 
 ---
@@ -85,5 +92,3 @@ dodo/
 
 MIT © 2025 Oguzhan Budak  
 Feel free to use, share, improve and contribute 🙌
-
----
