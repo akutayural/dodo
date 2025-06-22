@@ -1,5 +1,0 @@
-python-whois
-termcolor
-pyfiglet
-prettytable
-tqdm
